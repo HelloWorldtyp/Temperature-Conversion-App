@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     EditText Celsius;
     Button convert_Fahrenheit;
     Button convert_Celsius;
-    ConstraintLayout layout;
 
 
 
@@ -46,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 double d = Double.parseDouble(c);
                 double fahrenheit = d * 1.8 + 32;
                 Celsius.setText(fahrenheit + "");
+
+
 
             }
         });
